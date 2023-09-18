@@ -83,5 +83,5 @@ def test_quadratic_multiply(x, y, f):
   start = time.time()
   # multiply two numbers x, y using function f
   # 8
-  f(BinaryNumber(x), BinaryNumber(y))
+  f(x,y)
   return (time.time() - start) * 1000
